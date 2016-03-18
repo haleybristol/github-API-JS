@@ -3,7 +3,7 @@ var apiKey = require('./../.env').apiKey;
 exports.getRepos = function(user){
   var user = $('#user').val();
   $.get('https://api.github.com/users/' + user + '/repos?access_token=' + apiKey).then(function(response){
-    $('#pic').append('<img src=' + response[0].owner.avatar_url + '>');
+    $('#pic').html('<img src=' + response[0].owner.avatar_url + '>');
     // var followers = response.followers;
     // var repos = response[].archive_url;
     for (var i = 0; i < response.length; i += 1) {

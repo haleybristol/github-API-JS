@@ -75,8 +75,8 @@ h1 {
 #pic img {
   height: 180px;
   width: 180px;
-  margin: 20px;
   float: left;
+  margin-bottom: 20px;
 }
 
 #submit {
@@ -86,4 +86,10 @@ h1 {
 
 #userInfo {
   float: right;
+  margin: 20px;
+}
+
+.info {
+  float: left;
+  margin: 20px;
 }
