@@ -1,0 +1,22 @@
+{
+  "name": "js-review-1",
+  "description": "",
+  "main": "gulpfile.js",
+  "authors": [
+    "haley bristol <hebristol@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/haleybristol/jsReview1",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.2",
+    "bootstrap": "^3.3.6"
+  }
+}
