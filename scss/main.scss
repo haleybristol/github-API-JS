@@ -1,29 +1,89 @@
+//CSS Reset//
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+//End CSS Reset//
+
+
 body {
   font-family: 'Arimo', sans-serif;
+  background: black;
+  color: lightgreen;
 }
 
 form, h1 {
-  text-align: center;
+  margin: 10px;
+  color: white;
+}
 
+h1 {
+  font-size: 1.8em;
 }
 
 .header {
-  margin-top: 270px;
   display: flex;
   justify-content: center;
   align-items: center;
+  align-self: baseline;
   flex-direction: column;
   height: 100vh;
   background-image: url("../../img/ppl.jpg");
-  background-repeat: no-repeat;
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 #pic img {
-  height: 200px;
-  width: 200px;
-  margin: 30px;
+  height: 180px;
+  width: 180px;
+  margin: 20px;
+  float: left;
+}
+
+#submit {
+  background-color: lightgreen;
+  border: 2px solid lightgreen;
 }
 
 #userInfo {
+  float: right;
 }
