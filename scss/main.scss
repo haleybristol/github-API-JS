@@ -4,8 +4,20 @@ body {
 
 form, h1 {
   text-align: center;
+
 }
 
+.header {
+  margin-top: 270px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  background-image: url("../../img/ppl.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 #pic img {
   height: 200px;
@@ -13,5 +25,5 @@ form, h1 {
   margin: 30px;
 }
 
-.userInfo {
+#userInfo {
 }
