@@ -1,6 +1,6 @@
 # _Github User Search API_
 
-#### _JavaScript application made using the Node.js environment that allows a user to search for a GitHub account's associated repositories._
+JavaScript application made using the Node.js environment that allows a user to search for a GitHub user and their associated repositories.
 
 #### By _**Haley Bristol**_
 
