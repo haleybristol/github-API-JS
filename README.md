@@ -12,7 +12,8 @@ JavaScript application made using the Node.js environment that allows a user to 
 4. Make a .env file in top level of project
 5. Retrieve personal access token settings area of your Github account
 6. Select Personal Access Token from the sidebar on the left and hit 'Generate New Token' button in the upper-right corner
-7. Copy access token into a .env file in the top level of project directory
+7. Copy access token into .env file in the top level of project directory
+8. Export and store access token in .env file as `exports.apiKey = "your-personal-access-token";`
 8. Include .env file in .gitignore file
 9. Use gulp to build the site and run the server `gulp build` `gulp serve`
 
