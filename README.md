@@ -1,4 +1,4 @@
-_Github User Search API_
+#Github User Search API#
 
 JavaScript application made using the Node.js environment that allows a user to search for a GitHub user and their associated repositories.
 
